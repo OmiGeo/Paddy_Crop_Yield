@@ -13,5 +13,4 @@ types-PyYAML
 Flask
 Flask-Cors
 streamlit
-pickle
 scipy
