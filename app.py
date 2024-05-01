@@ -9,7 +9,7 @@ with open('adaboost_regression.pkl', 'rb') as f:
 
 # Streamlit UI
 def main():
-    st.title('Crop Yield Prediction')
+    st.title('Paddy Yield Prediction')
 
     # Input fields
     st.header('Enter Input Features:')
