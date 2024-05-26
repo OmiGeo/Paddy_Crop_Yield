@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 # Load the trained model from the pickle file
-with open('adaboost_regression.pkl', 'rb') as f:
+with open('adaboost_regression2.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Streamlit UI
@@ -25,6 +25,8 @@ def main():
     factamfos = st.number_input('Factamfos', value=0.0)
     potash = st.number_input('Potash', value=0.0)
     urea = st.number_input('Urea', value=0.0)
+    rainfall = st.number_input('rainfall', value=0.0)
+    Tempreature = st.number_input('Tempreature', value=0.0)
 
     # Prediction button
     if st.button('Predict'):
@@ -41,7 +43,9 @@ def main():
             'no of ponds': [ponds],
             'Factamfos': [factamfos],
             'Potash': [potash],
-            'Urea': [urea]
+            'Urea': [urea],
+            'rainfall': [rainfall],
+            'Tempreature' : [Tempreature]
         })
 
         # Predict using the model
