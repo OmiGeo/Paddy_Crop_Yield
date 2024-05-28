@@ -15,7 +15,7 @@ def main():
     st.header('Enter Input Features:')
     area = st.number_input('Area (acre)', value=0.0)
     wind_speed = st.number_input('Wind Speed', value=0.0)
-    rainfall = st.number_input('rainfall', value=0.0)
+    rainfall = st.number_input('Rainfall', value=0.0)
     Tempreature = st.number_input('Tempreature', value=0.0)
     profile_soil_moisture = st.number_input('Profile Soil Moisture', value=0.0)
     rootzone_soil_wetness = st.number_input('Rootzone Soil Wetness', value=0.0)
@@ -34,7 +34,7 @@ def main():
         input_data = pd.DataFrame({
             'area (acre)': [area],
             'wind speed': [wind_speed],
-            'rainfall': [rainfall],
+            'Rainfall': [rainfall],
             'Tempreature' : [Tempreature],
             'profile soil moisture': [profile_soil_moisture],
             'rootzone soil wetness': [rootzone_soil_wetness],

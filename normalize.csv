@@ -1,4 +1,4 @@
-yield (kg/acre),area (acre),wind speed,rainfall,Tempreature,profile soil moisture,rootzone soil wetness,no of open well,no of bore wells,canal length,no of ponds,Factamfos,Potash,Urea
+yield (kg/acre),area (acre),wind speed,Rainfall,Tempreature,profile soil moisture,rootzone soil wetness,no of open well,no of bore wells,canal length,no of ponds,Factamfos,Potash,Urea
 1348.5,1696.47,2.02,6.78,10.21,0.758571429,0.774285714,2375,101,61.4,80,101.7882,76.34115,84.8235
 1532.68,1281.37,1.66,8.28,10.21,0.79,0.812857143,1705,1235,14.6,90,76.8822,57.66165,64.0685
 1438.17,1712.67,2.645714286,9.04,10.21,0.795714286,0.814285714,490,380,32.1,85,102.7602,77.07015,85.6335
